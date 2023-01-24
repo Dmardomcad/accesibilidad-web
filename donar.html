@@ -9,8 +9,8 @@
     </head>
     <body class="expo-detalle">
     <header class="bg-verde-oscuro">
+        <h1>La Galería Eclética</h1>
         <div class="cabecera-top">
-            <h1>La Galería Eclética</h1>
             <div><a href="donar.html">Donaciones</a></div>
             <div>
                 <a href="#">ES</a>
@@ -73,7 +73,7 @@
                     </p>
                     <form>
                         <h3>Cantidad del donativo (EUR)</h3>
-
+                        <fieldset>
                         <div class="form-check-inline">
                             <input class="form-check-input" type="radio" name="unaVez" id="unaVez" value="option1" checked>
                             <label class="form-check-label" for="unaVez">
@@ -86,6 +86,8 @@
                                 Mensual
                             </label>
                         </div>
+                        </fieldset>
+                        <fieldset>
                         <div class="form-group">
                             <label for="exampleFormControlSelect2">Importe</label>
                             <select multiple class="form-control" id="exampleFormControlSelect2">
@@ -98,6 +100,7 @@
 
                             </select>
                         </div>
+                        </fieldset>
                         <div class="form-group">
                             <label for="otraCantidad">Otra cantidad</label>
                             <input type="password" class="form-control" id="otraCantidad" placeholder="Escriba otro importe">
